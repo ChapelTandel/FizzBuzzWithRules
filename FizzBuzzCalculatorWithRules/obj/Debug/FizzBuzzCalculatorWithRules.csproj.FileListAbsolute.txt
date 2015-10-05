@@ -1,0 +1,7 @@
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\obj\Debug\FizzBuzzCalculatorWithRules.csprojResolveAssemblyReference.cache
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\bin\Debug\FizzBuzzCalculatorWithRules.dll
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\bin\Debug\FizzBuzzCalculatorWithRules.pdb
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\bin\Debug\nunit.framework.dll
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\bin\Debug\nunit.framework.xml
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\obj\Debug\FizzBuzzCalculatorWithRules.dll
+c:\users\ctandel\documents\visual studio 2015\Projects\FizzBuzzCalculatorWithRules\FizzBuzzCalculatorWithRules\obj\Debug\FizzBuzzCalculatorWithRules.pdb
