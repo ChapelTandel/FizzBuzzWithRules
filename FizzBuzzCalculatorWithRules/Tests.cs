@@ -1,37 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace Given_I_Have_Fizz_Buzz_Calculator
 {
     [TestFixture]
-    public class When_I_Pass_A_Range_And_A_Rule
+    public class When_I_Pass_A_Number
     {
         [Test]
-        public void Then_The_Result_Is_Correct()
+        public void Then_The_Result_Is_Replacement_Word_Or_Original_Number()
         {
+            var range = Enumerable.Range(1, 15);
             var fizzBuzzCalculator = new FizzBuzzCalculator();
 
-            var rules = new List<Rules>
+            var resultNumberOfWord = new List<string>
             {
-                new Rules {Divisor = 15, Word = "FizzBuzz"},
-                new Rules {Divisor = 3, Word = "Fizz"},
-                new Rules {Divisor = 5, Word = "Buzz"},
-                new Rules {Divisor = 7, Word = "Whizz"}
+                "1",
+                "2",
+                "Fizz",
+                "4",
+                "Buzz",
+                "Fizz",
+                "Whizz",
+                "8",
+                "Fizz",
+                "Buzz",
+                "11",
+                "Fizz",
+                "Fizz",
+                "Whizz",
+                "FizzBuzz"
             };
 
-            var actual = fizzBuzzCalculator.GetFizzBuzzResult(Enumerable.Range(1, 7), rules);
-
-            var expected = new List<string> {"1", "2", "Fizz", "4", "Buzz", "Fizz", "Whizz"};
-
-            foreach (var item in actual)
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.ReadLine();
-            Assert.That(actual, Is.EqualTo(expected));
+            fizzBuzzCalculator.Calculate(range).Should().BeEquivalentTo(resultNumberOfWord);
         }
     }
 }
